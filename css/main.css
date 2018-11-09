@@ -126,7 +126,7 @@ header nav li a:hover {
   font-weight: normal;
   color: #212121;
   padding-left: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 .project-description {
@@ -134,7 +134,7 @@ header nav li a:hover {
   font-weight: lighter;
   color: #212121;
   padding-left: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 img {
@@ -146,7 +146,7 @@ img {
   font-weight: normal;
   color: #212121;
   padding-left: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 .section-text {
@@ -154,7 +154,7 @@ img {
   font-weight: 300;
   color: #212121;
   padding-left: 1em;
-  text-align: center;
+  text-align: left
 }
 
 /** ABOUT PAGE **/
