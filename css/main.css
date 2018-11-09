@@ -1,0 +1,211 @@
+html {
+  background-color: #fff;
+}
+
+/** TOP NAV **/
+
+.logo a {
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #F17C0E;
+}
+
+header nav li {
+  display: block;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+header nav li a {
+  text-decoration: none;
+  margin-right: 0;
+  text-align: center;
+  color: #d3d3d3;
+}
+
+ul.nav-wrapper .active {
+  outline: none;
+  border-bottom: 2px solid #F17C0E;
+  padding-bottom: 3px;
+  color: #F17C0E;
+  transition: 0.4s;
+}
+
+/** BANNER CONTENT **/
+
+.banner-intro {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  color: #212121;
+  padding-left: 1em;
+}
+
+/** WORK IMAGES **/
+
+.container {
+  position:relative;
+  width: 100%;
+}
+
+.container-large {
+  position:relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-bottom: .25em;
+}
+
+.middle {
+  transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.container-large:hover .middle {
+  opacity: 1;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container-large:hover .image {
+  opacity: 0.3;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.copy {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
+/** FOOTER **/
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #B2B2B2;
+  background-color: #252525;
+}
+
+/** PROJECT PAGE **/
+
+header nav li a:hover {
+  outline: none;
+  border-bottom: 2px solid #F17C0E;
+  padding-bottom: 3px;
+  color: #F17C0E;
+  transition: .4s;
+}
+
+.project-title {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  color: #212121;
+  padding-left: 1em;
+  text-align: center;
+}
+
+.project-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  color: #212121;
+  padding-left: 1em;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.section-title {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  color: #212121;
+  padding-left: 1em;
+  text-align: center;
+}
+
+.section-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #212121;
+  padding-left: 1em;
+  text-align: center;
+}
+
+/** ABOUT PAGE **/
+
+.lists {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.experience-title {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 25em) {
+
+  header nav ul li {
+    display: inline;
+    padding: 0 1em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 100%;
+    padding: .15em;
+  }
+
+  .container {
+    position:relative;
+    width: 50%;
+  }
+
+  .container-large {
+    position:relative;
+    width: 100%;
+}
+
+  .project-title,
+  .project-description,
+  .section-title,
+  .section-text {
+    text-align: left;
+  }
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: right;
+    margin-left: 13em;
+  }
+}
