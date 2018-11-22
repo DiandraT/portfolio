@@ -157,6 +157,51 @@ img {
   text-align: left
 }
 
+/** Project One **/
+
+.animalrescueType {
+  font-family: "Roboto", sans-serif;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #0a6187;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-two {
+  height: 50px;
+  width: 50px;
+  background-color: #ce9845;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.dot-three {
+  height: 50px;
+  width: 50px;
+  background-color: #ffff;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.colourBlock {
+  background-color: #fff;
+  width: 100%;
+}
+
+.section-title {
+  color: #fff;
+}
+
+.img {
+  width: 100%;
+}
 /** ABOUT PAGE **/
 
 .lists {
