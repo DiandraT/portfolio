@@ -1,0 +1,15 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Diandra Thompson <diandrathompson@imdee.ca>
+Site: imdee.ca
+GitHub: https://github.com/diandrat
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+- Freebies Bug
+Used to find mockups for both mobile and desktop view on my website
