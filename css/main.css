@@ -230,6 +230,10 @@ img {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
+.design-two {
+  margin-bottom: 3em;
+}
+
 /** LINE **/
 
 hr {
@@ -392,6 +396,10 @@ hr {
   .aboutDescription {
     margin-left: 4em;
     margin-right: 4em;
+  }
+
+  .design-two {
+    margin-bottom: 0;
   }
 
 @media only screen and (min-width: 60em) {
