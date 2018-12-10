@@ -111,6 +111,13 @@ footer {
   background-color: #252525;
 }
 
+
+
+.emailLink {
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
 /** PROJECT PAGE **/
 
 header nav li a:hover {
@@ -362,6 +369,25 @@ hr {
   font-weight: 300;
 }
 
+/** 404 PAGE **/
+
+.missingContent {
+  font-family: "Raleway", sans-serif;
+}
+.missingTitle {
+  font-size: 80px;
+}
+
+.btn {
+  background-color: #F17C0E;
+  border: 0px;
+}
+
+.btn:hover {
+  background-color: #d3d3d3;
+  color: #121212;
+}
+
 @media only screen and (min-width: 25em) {
 
   header nav ul li {
@@ -400,6 +426,14 @@ hr {
 
   .design-two {
     margin-bottom: 0;
+  }
+
+  .emailLink {
+    float: right;
+  }
+
+  .copyright {
+    float: left;
   }
 
 @media only screen and (min-width: 60em) {
