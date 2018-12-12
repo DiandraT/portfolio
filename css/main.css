@@ -403,6 +403,18 @@ hr {
     width: 100%;
   }
 
+  .banner-intro {
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    color: #212121;
+    padding-left: 1em;
+    text-align: left;
+  }
+
+  .banner-wrapper {
+    text-align: left;
+  }
+
   .container {
     position:relative;
     width: 50%;
