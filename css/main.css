@@ -433,7 +433,7 @@ hr {
   .project-title,
   .project-description,
   .section-title {
-    text-align: left;
+    text-align: center;
   }
 
   .aboutDescription {
@@ -462,5 +462,11 @@ hr {
   .logo {
     text-align: right;
     margin-left: 13em;
+  }
+
+  .project-title,
+  .project-description,
+  .section-title {
+    text-align: left;
   }
 }
